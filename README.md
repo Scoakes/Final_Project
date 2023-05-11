@@ -36,3 +36,4 @@ The dataset for this project includes 31796 rows of 18 health/demographic featur
 1. What age group experiences the most heart disease?
 2. Is heart disease more prominent in males or females?
 3. Does increased sleep help decrease heart disease?
+4. How much does physical activity improve heart disease?
