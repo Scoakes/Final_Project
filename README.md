@@ -38,3 +38,23 @@ The dataset for this project includes 31796 rows of 18 health/demographic featur
 3. Does increased sleep help decrease heart disease?
 4. How much does physical activity improve heart disease?
 5. Does one sex have overall better general health than the other in this sample group?
+
+
+### Data Exploration Phase 
+
+
+### Analysis Phase 
+
+
+### Technologies, Languages, Tools, and Algorithms 
+
+
+### Results of Analysis
+
+
+
+### Recommendation for Future Analysis
+
+
+
+### Potential Changes that Could've Been Made 
