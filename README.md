@@ -25,20 +25,6 @@ The dataset for this project includes 31796 rows of 18 health/demographic featur
 -KidneyDisease (Boolean)	
 -SkinCancer (Boolean)
 
-The dataset for this project includes 299 rows of 13 health features. These catagories include the following: 
--age
--anaemia
--creatinine_phosphokinase
--diabetes
--ejection_fraction
--high_blood_pressure
--platelets
--serum_creatinine
--serum_sodium
--sex
--smoking
--time
--Death Event (Obj)
 
 
 ###Machine Learning Model 
