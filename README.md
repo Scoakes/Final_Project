@@ -37,3 +37,4 @@ The dataset for this project includes 31796 rows of 18 health/demographic featur
 2. Is heart disease more prominent in males or females?
 3. Does increased sleep help decrease heart disease?
 4. How much does physical activity improve heart disease?
+5. Does one sex have overall better general health than the other in this sample group?
