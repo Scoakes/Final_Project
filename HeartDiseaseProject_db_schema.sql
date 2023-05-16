@@ -18,9 +18,9 @@ CREATE TABLE "Morbidity_df" (
 
 CREATE TABLE "Demographics_df" (
     "RespondentID" int   NOT NULL,
-    "Sex" varchar(20)   NOT NULL,
+    "Sex" varchar(50)   NOT NULL,
     "AgeRange" varchar(50)   NOT NULL,
-    "Race" varchar(20)   NOT NULL,
+    "Race" varchar(50)   NOT NULL,
     CONSTRAINT "pk_Demographics_df" PRIMARY KEY (
         "RespondentID"
      )
@@ -34,7 +34,7 @@ CREATE TABLE "HealthMetrics_df" (
     "HelathyPhysicalDays" int   NOT NULL,
     "HealthyMentalDays" int   NOT NULL,
     "PhysicalActivity" boolean   NOT NULL,
-    "GeneralHealth" varchar(20)   NOT NULL,
+    "GeneralHealth" varchar(50)   NOT NULL,
     "SleepHours" int   NOT NULL,
     CONSTRAINT "pk_HealthMetrics_df" PRIMARY KEY (
         "RespondentID"
