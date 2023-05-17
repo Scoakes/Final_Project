@@ -1,7 +1,7 @@
 # Final_Project
 
 ## Project Overview - Predicting Incidence of Heart Disease Using Health Data
-Heart disease is the leading cause of death for men and women in the United States. Using data gathered from Kaggle.com we will create a **Neural Network/**Random Forest that will trained on health data to predict wether people represented in a test data set are at risk of heart disease. 
+Heart disease is the leading cause of death for men and women in the United States. Using data gathered from Kaggle.com we will create a Random Forest that will trained on health data to predict wether people represented in a test data set are at risk of heart disease. 
 
 ### Data Overview 
 The dataset for this project includes 31796 rows of 18 health/demographic features. These catagories include the following: 
@@ -28,8 +28,9 @@ The dataset for this project includes 31796 rows of 18 health/demographic featur
 
 
 ### Machine Learning Model 
--Neural Net or Random Forest?
-  "Although their predictive performance was comparable, their implementation and training times were not—the random forest classifier was able to train on the large dataset and predict values in seconds, while the deep learning model required a couple minutes to train on the tens of thousands of data points. In other words, the random forest model is able to achieve comparable predictive accuracy on large tabular data with less code and faster performance. The ultimate decision of whether to use a random forest versus a neural network comes down to preference. However, if your dataset is tabular, random forest is a great place to start."
+-Random Forest
+
+We chose a random forest model to predict our target variable of "Heart Disease". In our dataset, Heart Disease meassures the respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI). The choice to use a random forset model was due to its comparable predictive performance to a deep learning model but with reduced code and training time. Random forests are also robust to skewed data, while the main data set was balanced and reduced in size for the model, it still contained some skewed features. 
 
 
 ### Questions We hope to answer.
