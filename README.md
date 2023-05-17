@@ -36,6 +36,10 @@ We chose a random forest model to predict our target variable of "Heart Disease"
 
 Before feeding the model data to predict, we began with balancing the dataset by creating a new dataframe that was subsetted from the orginal with boosted features that were skewed in the original. For example "Heart Disease" was highly skewed in the original data at 9% "Yes" and 91% "No". In the balanced dataset this was more balanced at 27% "Yes" and 73% "No". Additionally there were multiple catagorical columns that had to be encoded to "1" and "0" values such as: 'HeartDisease','Sex','AgeCategory','Smoking', 'Stroke','Diabetic','PhysicalActivity', 'AlcoholDrinking','DiffWalking','Race','GenHealth', 'Asthma','KidneyDisease',and 'SkinCancer'. These columns were split into several different columns during encoding. For example 'HeartDisease' was split into 'HeartDisease_Yes' and 'HeartDisease_No'. Finally we performed an StandardScaler Transformation on the data before running it through the random forest.
 
+-Splitting the Data
+
+The transformed data was split with train_test_split method imported from sklearn.model_selection.
+
 
 ### Questions We hope to answer.
 1. What age group experiences the most heart disease?
