@@ -44,9 +44,6 @@ CREATE TABLE "HealthMetrics_df" (
 ALTER TABLE "Morbidity_df" ADD CONSTRAINT "fk_Morbidity_df_RespondentID" FOREIGN KEY("RespondentID")
 REFERENCES "Demographics_df" ("RespondentID");
 
-ALTER TABLE "Demographics_df" ADD CONSTRAINT "fk_Demographics_df_RespondentID" FOREIGN KEY("RespondentID")
-REFERENCES "HealthMetrics_df" ("RespondentID");
-
 ALTER TABLE "HealthMetrics_df" ADD CONSTRAINT "fk_HealthMetrics_df_RespondentID" FOREIGN KEY("RespondentID")
-REFERENCES "Morbidity_df" ("RespondentID");
+REFERENCES "Demographics_df" ("RespondentID");
 
