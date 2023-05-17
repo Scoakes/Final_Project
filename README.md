@@ -32,6 +32,10 @@ The dataset for this project includes 31796 rows of 18 health/demographic featur
 
 We chose a random forest model to predict our target variable of "Heart Disease". In our dataset, Heart Disease meassures the respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI). The choice to use a random forset model was due to its comparable predictive performance to a deep learning model but with reduced code and training time. Random forests are also robust to skewed data, while the main data set was balanced and reduced in size for the model, it still contained some skewed features. 
 
+-Pre-Processing 
+
+Before feeding the model data to predict, we began with balancing the dataset by creating a new dataframe that was subsetted from the orginal with boosted features that were skewed in the original. For example "Heart Disease" was highly skewed in the original data at 9% "Yes" and 91% "No". In the balanced dataset this was more balanced at 27% "Yes" and 73% "No". Additionally there were multiple catagorical columns that had to be encoded to "1" and "0" values such as: 'HeartDisease','Sex','AgeCategory','Smoking', 'Stroke','Diabetic','PhysicalActivity', 'AlcoholDrinking','DiffWalking','Race','GenHealth', 'Asthma','KidneyDisease',and 'SkinCancer'. These columns were split into several different columns during encoding. For example 'HeartDisease' was split into 'HeartDisease_Yes' and 'HeartDisease_No'. Finally we performed an StandardScaler Transformation on the data before running it through the random forest.
+
 
 ### Questions We hope to answer.
 1. What age group experiences the most heart disease?
