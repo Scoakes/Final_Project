@@ -44,7 +44,30 @@ We chose a random forest model to predict our target variable of "Heart Disease"
 ### Data Exploration Phase 
 
 
-### Analysis Phase 
+### Model Analysis 
+
+Accuracy Score : 0.75
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.78      0.91      0.84       445
+           1       0.61      0.35      0.44       179
+
+    accuracy                           0.75       624
+   macro avg       0.70      0.63      0.64       624
+weighted avg       0.73      0.75      0.73       624
+
+
+
+
+
+Top 5 Highest Weighted Features:
+
+BMI - 13.34%
+SleepTime - 7.28%
+PhysicalHealth - 6.37%
+MentalHealth - 5.10%
+Race_White 4.74%
 
 
 ### Technologies, Languages, Tools, and Algorithms 
