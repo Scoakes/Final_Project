@@ -1,7 +1,7 @@
 # Final_Project
 https://docs.google.com/presentation/d/1uIaCPF-SFLRl51NfYNTgopQiG-NdYPAtic4XwnFjEoU/edit?usp=sharing
 ## Project Overview - Predicting Incidence of Heart Disease Using Health Data
-Heart disease is the leading cause of death for men and women in the United States. Using data gathered from Kaggle.com we will create a Random Forest that will trained on health data to predict wether people represented in a test data set are at risk of heart disease. 
+Heart disease is the leading cause of death for men and women in the United States. Using data gathered from Kaggle.com we will create a Random Forest that will be trained on health data to predict weather people represented in a test data set are at risk of heart disease. 
 
 ### Data Overview 
 The dataset for this project includes 31796 rows of 18 health/demographic features. These catagories include the following: 
