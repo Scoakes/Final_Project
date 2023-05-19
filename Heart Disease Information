@@ -1,0 +1,38 @@
+What is heart disease?
+Heart disease is a type of disease that affects the heart or blood vessels. 
+
+Why did we choose the topic heart disease? 
+Heart diesease is the leading cause of death for men and women in the United States. Using data gathered from Haggle.com we will create a Random Forest that will be trained on health data to predict weather people represented in a test data set are at risk of heart disease.
+
+Common Types of Heart Disease 
+  Coronary Artery Disease
+  High Blood Pressure 
+  Cardiac Arrest 
+  Congestive Heart Failure 
+  Arrhythmia 
+  Stroke 
+  Congenital Heart Disease
+  Peripheral Artery Disease 
+ 
+Signs of Heart Disease 
+  Chest Pain 
+  Shortness of Breath
+  Coughing or Wheezing 
+  Poor blood supply 
+  Palpiitation 
+  Swelling of feet, legs, and ankles. 
+  
+ Heart Disease Risk Factors 
+  Unhealthy Nutrition 
+  Physical Inactivity 
+  Dyslipidemia
+  Hyperglycemia 
+  High Blood Pressure 
+  Obesity 
+  Older Age 
+  Sex Differences 
+  Race/Ethnicity 
+  Smoking 
+  Kidney Dysfunction 
+  Genetics 
+  
