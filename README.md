@@ -3,6 +3,8 @@ https://docs.google.com/presentation/d/1uIaCPF-SFLRl51NfYNTgopQiG-NdYPAtic4XwnFj
 ## Project Overview - Predicting Incidence of Heart Disease Using Health Data
 Heart disease is a disease that affects the heart or blood vessles. The risk of certain heart dieases may be increased by smoking, high blood pressure, high cholesterol, unhealthy diet, lack of excerise, and obesity. Heart disease is the leading cause of death for men and women in the United States. Using data gathered from Kaggle.com we will create a Random Forest that will be trained on health data to predict whether people represented in a test data set are at risk of heart disease. 
 
+Common heart disease are coronary artery disease, high blood pressure, cardiac arrest, congestive heart failure, arrhythmia, stroke, congenital heart disease, and peripheral.
+
 ### Data Overview 
 The dataset originates from an annual telephone survey conducted by the CDC in which more than 400,000 adult interviews were conducted where respondents were asked various questions about themselves and their health habits
 
