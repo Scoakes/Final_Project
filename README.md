@@ -11,28 +11,28 @@ The “Heart Disease” metric represents respondents who reported either being 
 The dataset for this project includes 319796 rows of 18 health/demographic features. These catagories include the following: 
 
 #### Demographics
--Sex (Obj)
--AgeCategory (Obj)
--Race (Obj) 
+- Sex (Obj)
+- AgeCategory (Obj)
+- Race (Obj) 
 
 #### Morbidity
--HeartDisease (Boolean)
--Stroke (Boolean)
--DifficultyWalking (Boolean)
--Diabetes (Obj)
--Asthma (Boolean)	
--KidneyDisease (Boolean)	
--SkinCancer (Boolean)
+- HeartDisease (Boolean)
+- Stroke (Boolean)
+- DifficultyWalking (Boolean)
+- Diabetes (Obj)
+- Asthma (Boolean)	
+- KidneyDisease (Boolean)	
+- SkinCancer (Boolean)
 
 #### Health Metrics
--BMI (Float)	
--Smoking (Boolean)	
--AlcoholDrinking (Boolean)	
--HealthyPhysicalDays (Int)          
--HealthyMentalDays (Int)	                
--PhysicalActivity (Boolean)	
--GeneralHealth (Obj)  
--SleepHours (Int)	
+- BMI (Float)	
+- Smoking (Boolean)	
+- AlcoholDrinking (Boolean)	
+- HealthyPhysicalDays (Int)          
+- HealthyMentalDays (Int)	                
+- PhysicalActivity (Boolean)	
+- GeneralHealth (Obj)  
+- SleepHours (Int)	
 
 ### Machine Learning Model 
 -Random Forest
