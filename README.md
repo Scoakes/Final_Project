@@ -60,6 +60,7 @@ The transformed data was split with train_test_split method imported from sklear
 
 ### Data Exploration Phase 
 
+After the model was created we attained some prelimenary information about the features in our dataset. The 5 highest weighted features were explored more through visualizations.
 
 ### Model Analysis 
 
@@ -92,10 +93,13 @@ Race_White 4.74%
 
 ### Results of Analysis
 
+The final accuracy of the model topped out at 75%. Attempts were made to increasea accuracy by dropping features that weren't weighted highly in the first iteration model to reduce noise. However, these attempts did not raise the model's overall accuracy.
 
 
 ### Recommendation for Future Analysis
+Boosting might be a method that could be used to increase the prediction accuracy of the model.
 
 
 
 ### Potential Changes that Could've Been Made 
+Further tweaks could've been made for deminsionality reduction and balancing of the input data for our model. 
