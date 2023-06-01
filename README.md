@@ -1,6 +1,6 @@
 # Final_Project
-Dashboard: https://public.tableau.com/authoring/HeartDiseaseData_16847900000030/Dashboard1#1
-Google Slides Presentation: https://docs.google.com/presentation/d/1uIaCPF-SFLRl51NfYNTgopQiG-NdYPAtic4XwnFjEoU/edit?usp=sharing
+- Dashboard: https://public.tableau.com/authoring/HeartDiseaseData_16847900000030/Dashboard1#1
+- Google Slides Presentation: https://docs.google.com/presentation/d/1uIaCPF-SFLRl51NfYNTgopQiG-NdYPAtic4XwnFjEoU/edit?usp=sharing
 
 ## Project Overview - Predicting Incidence of Heart Disease Using Health Data
 Heart disease is a disease that affects the heart or blood vessles. The risk of certain heart dieases may be increased by smoking, high blood pressure, high cholesterol, unhealthy diet, lack of excerise, and obesity. Heart disease is the leading cause of death for men and women in the United States. Using data gathered from Kaggle.com we will create a Random Forest that will be trained on health data to predict whether people represented in a test data set are at risk of heart disease. 
@@ -44,9 +44,11 @@ The dataset for this project includes 319796 rows of 18 health/demographic featu
 We chose a random forest model to predict our target variable of "Heart Disease". In our dataset, Heart Disease meassures the respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI). The choice to use a random forset model was due to its comparable predictive performance to a deep learning model but with reduced code and training time. Random forests are also robust to skewed data, while the main data set was balanced and reduced in size for the model, it still contained some skewed features. 
 
 -Pre-Processing 
+
 Before feeding the model data to predict, we began with balancing the dataset by creating a new dataframe that was subsetted from the orginal with boosted features that were skewed in the original. For example "Heart Disease" was highly skewed in the original data at 9% "Yes" and 91% "No". In the balanced dataset this was more balanced at 27% "Yes" and 73% "No". Additionally there were multiple catagorical columns that had to be encoded to "1" and "0" values such as: 'HeartDisease','Sex','AgeCategory','Smoking', 'Stroke','Diabetic','PhysicalActivity', 'AlcoholDrinking','DiffWalking','Race','GenHealth', 'Asthma','KidneyDisease',and 'SkinCancer'. These columns were split into several different columns during encoding. For example 'HeartDisease' was split into 'HeartDisease_Yes' and 'HeartDisease_No'. Finally we performed an StandardScaler Transformation on the data before running it through the random forest.
 
 -Splitting the Data
+
 The transformed data was split with train_test_split method imported from sklearn.model_selection.
 
 
